@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Last Case Study</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="javas.js">
+
+    </script>
+  </head>
+  <body bgcolor="gray" width="100%">
+
+<div class="block1">
+<p style="position: absolute;
+    top: 370px;
+    color: white;
+    left: 135px;
+    font-size: 25px;">Become a Member</p><br>
+<p style="position: absolute;
+    top: 445px;
+    color: white;
+    left: 135px;">Welcome to the Super 8 Film <br>society.We are agroup of film <br>enthusiasts who meet up each <br>month to watch old movies on <br> film,in our own private cinema. <br>We also create our own short film <br> each year,which is entered into <br>film competetions worldwide.</p>
+</div>
+
+
+<div class="block2">
+<p style="position: absolute;
+    top: -15px;
+    left: 10px;
+    font-size: 23px;
+    color: white;">Settings</p>
+    <p style="color:white;" >Name:<br></p>
+    <input type="text" id="name" placeholder="Enter your name" onblur="Name()">
+    <p id="nm" style="visibility:hidden;">Field is required</p>
+    <br>
+    <p style="color:white;">Email:<br></p>
+    <input type="text" id="email" placeholder="you@gmail.com" onblur="email()">
+    <p id="eml" style="visibility:hidden;">Please enter a valid email id</p>
+    <br>
+    <p style="color:white;">Password:<br></p>
+    <input type="password" id="pswd" onblur="password()" >
+
+    <p id="ps" style="visibility:hidden;">Please make sure that your password have atleast 8 characters</p>
+    <br>
+    <p style="color:white;">Confirm Password:</p>
+    <input type="password" id="cpswd" onblur="confirm()">
+    <i class="fa fa-check" aria-hidden="true" id="right" style="visibility:hidden; position: absolute;left: 295px;top: 610px; color: #32CD32"></i>
+    <i class="fa fa-times" aria-hidden="true" id="wrong" style="visibility:hidden; position: absolute;left: 295px;top: 610px; color:red"></i>
+
+
+    <p id="cnps" style="visibility:hidden;">Field is required</p>
+</div>
+
+<div class="block3">
+  <p style="position: absolute;
+      top: -15px;
+      left: 10px;
+      font-size: 23px;
+      color: white;">Profile</p>
+      <p style="color:white;">Birthday:<br></p>
+      <input type="date" name="date" id="datee" onblur="date()">
+      <p id="age"style="visibility:hidden;">You need a parent's permission to join.Tick here if your child can join<input  type="checkbox" name="check" value=""></p>
+      <br><br><br>
+      <p style="color:white;">Short Bio(max 140 characters)</p>
+      <textarea id="text" name="bio" rows="8" cols="40" onkeyup="count()"></textarea>
+      <label id="cnt">140</label>
+      <br><br>
+      <input type="submit" class="sub" name="register" value="Register">
+</div>
+
+<div class="block4">
+<p style="position: absolute;left: 77px;font-size: 30px; "><b>SUPER</b></p><br>
+<p style="position: absolute;left: 100px;font-size: 100px; top:-44px; "><b>8</b></p>
+<p style="position: absolute;left: 55px;font-size: 21px;  TOP:155px;"><b>FILM SOCIETY</b></p>
+
+</div>
+
+  </body>
+</html>
